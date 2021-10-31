@@ -11,28 +11,31 @@ ASSIGNMENT RULES
 /* EXERCISE 1
  Create a variable and assign to it an array containing the first 5 positive numbers.
 */
-let positive= [1,2,3,4,5]
 
 /* WRITE YOUR ANSWER HERE */
+
+//let positive= [1,2,3,4,5]
 
 /* EXERCISE 2
  Create a variable and assign to it an object containing your name, surname, email address and age.
 */
 
 /* WRITE YOUR ANSWER HERE */
-let student = {
-    name:"Alberto",
-    surname: "Polo",
-    email:"bertopolo91@gmail.com",
-    age: 30
-}
+
+//let student = {
+//    name:"Alberto",
+//    surname: "Polo",
+//    email:"bertopolo91@gmail.com",
+//    age: 30
+//}
 
 /* EXERCISE 3
  Add to the previously created object a property with a boolean value to rappresent wheter you have or not a driving license.
 */
 
 /* WRITE YOUR ANSWER HERE */
-student.hasDrivingLicense= true
+
+//student.hasDrivingLicense= true
 
 
 /* EXERCISE 4
@@ -40,19 +43,22 @@ student.hasDrivingLicense= true
 */
 
 /* WRITE YOUR ANSWER HERE */
-delete student.age
+
+//delete student.age
 
 /* EXERCISE 5
  Create a second object with another name, surname, email address and verify that this object has a different email address than the previous one.
 */
 
 /* WRITE YOUR ANSWER HERE */
-let student2={
-    name:"jacob",
-    surname:"williams",
-    email:"tralara@gmail.com",
-    age:23
-} /* I wanted to use the clone element but I think it's not very usefull here ,because I have to change all data/*
+
+//let student2={
+  // name:"jacob",
+    //surname:"williams",
+    //email:"tralara@gmail.com",
+    //age:23
+//}
+  //I wanted to use the clone element but I think it's not very usefull here ,because I have to change all data
 
 /* EXERCISE 6
  You are working on an e-commerce website. In the variable totalShoppingCart you are storing the total amount spent by the current user.
@@ -61,6 +67,14 @@ let student2={
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+let price = 40
+
+if (price<=50) {
+    price += 10
+} 
+
+console.log(price)
 
 
 /* EXERCISE 7
@@ -76,6 +90,7 @@ let student2={
 */
 
 /* WRITE YOUR ANSWER HERE */
+
 let originalCar={
     brand:"Honda",
     model:"civic",
