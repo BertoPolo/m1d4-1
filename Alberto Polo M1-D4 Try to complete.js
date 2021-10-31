@@ -67,7 +67,7 @@ ASSIGNMENT RULES
 */
 
 /* WRITE YOUR ANSWER HERE */
-
+/*
 let totalShoppingCart = 40
 
 if (totalShoppingCart<=50) {
@@ -75,7 +75,7 @@ if (totalShoppingCart<=50) {
 } 
 
 console.log(totalShoppingCart)
-
+*/
     
 
 /* EXERCISE 7
@@ -85,6 +85,14 @@ console.log(totalShoppingCart)
 
 /* WRITE YOUR ANSWER HERE */
 
+let totalShoppingCart = 40
+
+if (totalShoppingCart<=50) {
+    totalShoppingCart += 10
+} 
+
+let totalCostWithDiscount = totalShoppingCart*0.20 
+
 /* EXERCISE 8
  Create a variable and assign to it an object representing a car, with properties like brand, model and licensePlate.
  Then clone it 5 times, and change the licensePlate for each cloned car without affecting the original one.
@@ -92,7 +100,7 @@ console.log(totalShoppingCart)
 
 /* WRITE YOUR ANSWER HERE */
 
-let originalCar={
+let originalCar ={
     brand:"Honda",
     model:"civic",
     licensePlate:"1234aaa"
