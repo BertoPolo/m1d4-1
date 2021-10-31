@@ -68,14 +68,15 @@ ASSIGNMENT RULES
 
 /* WRITE YOUR ANSWER HERE */
 
-let price = 40
+let totalShoppingCart = 40
 
-if (price<=50) {
-    price += 10
+if (totalShoppingCart<=50) {
+    totalShoppingCart += 10
 } 
 
-console.log(price)
+console.log(totalShoppingCart)
 
+    
 
 /* EXERCISE 7
  You are working on an e-commerce website. Today is Black Friday and everything has a 20% discount at the end of the purchase.
