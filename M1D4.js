@@ -129,7 +129,7 @@ car5.licensePlate="1234eee"
 
 /* WRITE YOUR ANSWER HERE */
 
-let carsForRent= [car2,car3,car4,car5]
+let carsForRent= [originalCar,car2,car3,car4,car5]
 
 console.log(carsForRent)
 
@@ -138,15 +138,23 @@ console.log(carsForRent)
 */
 
 /* WRITE YOUR ANSWER HERE */
+console.log("----ex 10---")
 
+//carsForRent.pop();
+//carsForRent.shift();
 
-
+delete carsForRent[0]
+delete carsForRent[4]
+console.log(carsForRent)
 
 /* EXERCISE 11
  Print to the console the type of the car variable you created before, as well as the types of its licensePlate and brand properties.
 */
 
 /* WRITE YOUR ANSWER HERE */
+console.log("ex11")
+
+console.log(typeof originalCar, typeof originalCar.licensePlate, typeof originalCar.brand);
 
 /* EXERCISE 12
  Create a new variable called carsForSale assigning to it an empty array, and then insert 3 cars into it.
@@ -154,13 +162,27 @@ console.log(carsForRent)
 */
 
 /* WRITE YOUR ANSWER HERE */
+console.log("ex 12")
+
+let carsForSale = {}
+
+carsForSale=[car2,car3,car4]
+totalCars= [originalCar,car2,car3,car4,car5]
+console.log(carsForSale , totalCars)
+
 
 /* EXERCISE 13
  Using a loop, print to the console all the data for each car in the carsForSale array.
 */
 
 /* WRITE YOUR ANSWER HERE */
-
-/* WHEN YOU ARE FINISHED
+console.log("ex13")
+for (let i = 0; i < carsForSale.length; i++) {
+  console.log(carsForSale[i].brand);
+  console.log(carsForSale[i].model);
+  console.log(carsForSale[i].licensePlate);
+}
+  /* WHEN YOU ARE FINISHED
  Upload the .js file on Eduflow before 5PM CET. In the next days we'll also learn how to use GIT!
+
 */
