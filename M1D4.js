@@ -128,13 +128,19 @@ car5.licensePlate="1234eee"
 */
 
 /* WRITE YOUR ANSWER HERE */
-let carsForRent= originalCar.concat(car2,car3,car4,car5)
+
+let carsForRent= [car2,car3,car4,car5]
+
+console.log(carsForRent)
 
 /* EXERCISE 10
  Remove the first and the last car from the carsForRent array.
 */
 
 /* WRITE YOUR ANSWER HERE */
+
+
+
 
 /* EXERCISE 11
  Print to the console the type of the car variable you created before, as well as the types of its licensePlate and brand properties.
