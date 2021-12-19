@@ -10,7 +10,7 @@ let arrayToRevert = ["hi","this","is","my name"]
 
 let reverter = arrayToRevert.reverse()
 
-console.log(reverter)
+console.log(reverter + " ex1")
 
 /* EXTRA 2
  Write a piece of code for getting the maximum numerical value from an array.
@@ -18,11 +18,9 @@ console.log(reverter)
 
 const arrayBigger=[7,5,2,22,6668,41,1,42,3]
 
-console.log(Math.max(arrayBigger))
 
-/* const biggyFunc = function(){
+console.log(Math.max(...arrayBigger) + " ex 2")
 
-} */
 
 /* EXTRA 3
  Write a piece of code for getting the minimum numerical value from an array.
