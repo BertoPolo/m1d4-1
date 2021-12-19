@@ -47,23 +47,41 @@ console.log(evenNumbers,"ex 4")
 /* EXTRA 5
  Write a piece of code for deleting only even entries from an array.
 */
-const evenRemoverFunc= function(){
+/* const evenRemoverFunc= function(){
 for(let i =0;i<arrayBigger.length;i++){
     let looped
-    
+
     if( arrayBigger[i] % 2 == 0){
          arrayBigger[i].splice(i,1)
     }
 
 }}
-
-console.log(arrayBigger,"ex 5")
+//tetiana : in the function create empty array,and in the loop check if it's e NOT even then push it to a new array and after the loop return array (which now contains odd entries )
+console.log(arrayBigger,"ex 5") */
 
 /* EXTRA 6
  Write a piece of code for removing all the vowels from a string.
 */
 
 const longString= "Valor devuelto Un array que contiene los elementos eliminados. Si sólo se ha eliminado un elemento, devuelve un array con un solo elemento. Si no se ha eliminado ningún elemento, devuelve un array vacío.Descripción Si especifica un número diferente de elementos a agregar que los que se eliminarán, el array tendrá un tamaño diferente al original una vez finalizada la llamada."
+
+let vowelRemover = function(){
+    longString.split(" ")
+    for(let i = 0; i<longString.length;i++){
+        if(longString[i] === "a"){
+            longString[i].replace("a"," ")
+        }else if(longString[i]==="e"){
+            longString[i].replace("e"," ")
+        }
+        /* 
+        longString[i].replace("i"," ")
+        longString[i].replace("o"," ")
+        longString[i].replace("u"," ") */
+    }
+
+}
+
+console.log(vowelRemover())
 
 /* EXTRA 7
  Write a piece of code for increasing all the numerical values in a array by 1.
